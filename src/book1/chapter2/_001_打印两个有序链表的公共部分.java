@@ -5,14 +5,6 @@ package book1.chapter2;
  */
 public class _001_打印两个有序链表的公共部分 {
 
-    public static class Node {
-        public int value;
-        public Node next;
-        public Node(int value){
-            this.value = value;
-        }
-    }
-
     public static void printCommonPart(Node n1, Node n2){
 
         while (n1 != null && n2 != null){
