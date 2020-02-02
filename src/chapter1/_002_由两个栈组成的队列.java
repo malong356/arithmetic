@@ -6,11 +6,11 @@ import java.util.Stack;
  * 由两个栈组成队列
  * Created by malong on 2019-12-27.
  */
-public class TwoStacksQueue {
+public class _002_由两个栈组成的队列 {
     private Stack<Integer> stackPush;
     private Stack<Integer> stackPop;
 
-    public TwoStacksQueue(){
+    public _002_由两个栈组成的队列(){
         stackPush = new Stack<>();
         stackPop = new Stack<>();
     }

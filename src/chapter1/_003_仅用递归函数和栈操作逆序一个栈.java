@@ -6,7 +6,7 @@ import java.util.Stack;
  * 仅用递归函数和栈操作逆序一个栈
  * Created by malong on 2019-12-27.
  */
-public class RecursionReverseStack {
+public class _003_仅用递归函数和栈操作逆序一个栈 {
 
     public static Integer getAndRemoveLastElement(Stack<Integer> stack){
         Integer result = stack.pop();

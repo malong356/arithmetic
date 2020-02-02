@@ -6,7 +6,7 @@ import java.util.Stack;
  * 用一个栈实现另一个栈的排序
  * Created by malong on 2019-12-28.
  */
-public class SortStackByStack {
+public class _005_用一个栈实现另一个栈的排序 {
 
     public static Stack<Integer> sortByStack(Stack<Integer> stack){
         Stack<Integer> help = new Stack<>();

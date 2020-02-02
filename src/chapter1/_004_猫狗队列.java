@@ -8,13 +8,13 @@ import java.util.Queue;
  * 猫狗队列
  * Created by malong on 2019-12-28.
  */
-public class CatDogQueue {
+public class _004_猫狗队列 {
 
     private Queue<PetQueue> dogQueue;
     private Queue<PetQueue> catQueue;
     private long count;
 
-    public CatDogQueue() {
+    public _004_猫狗队列() {
         this.dogQueue = new LinkedList<>();
         this.catQueue = new LinkedList<>();
         this.count = 0L;

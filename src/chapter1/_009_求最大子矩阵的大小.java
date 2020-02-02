@@ -7,7 +7,7 @@ import java.util.Stack;
  *
  * Created by malong  2020-01-01.
  */
-public class MaxRecSize {
+public class _009_求最大子矩阵的大小 {
 
     public static int maxRexSize(int[][] map){
         if(map == null || map.length == 0 || map[0].length == 0){

@@ -7,7 +7,7 @@ import java.util.LinkedList;
  * 例如数组 [4,3,5,4,3,3,6,7]
  * Created by malong on 2019-12-29.
  */
-public class MaxWindow {
+public class _007_生成窗口最大数组 {
 
     public static int[] getMaxWindow(int[] arrs, int w){
         if(arrs == null || w < 1 || arrs.length < w){

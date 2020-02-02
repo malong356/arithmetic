@@ -4,7 +4,7 @@ package chapter1;
  * 汉诺塔
  * Created by malong on 2019-12-28.
  */
-public class HanoiProblem1 {
+public class _006_汉诺塔1 {
 
     public static final String LEFT = "左";
     public static final String MID = "中";

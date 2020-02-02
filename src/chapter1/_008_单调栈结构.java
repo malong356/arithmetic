@@ -10,7 +10,7 @@ import java.util.Stack;
  * 找到每一个i位置左边和右边离i位置最近且值比arr[i]小的位置
  * Created by malong on 2019-12-29.
  */
-public class NearLess {
+public class _008_单调栈结构 {
     // 不重复的数组
     // arr = [3, 4, 1, 5, 6, 2, 7]
     public static int[][] getNearLessNoRepeat(int[] arr){
