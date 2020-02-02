@@ -1,4 +1,4 @@
-package chapter1;
+package book1.chapter1;
 
 /**
  * 汉诺塔
