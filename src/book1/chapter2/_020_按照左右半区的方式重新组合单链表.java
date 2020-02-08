@@ -44,9 +44,7 @@ public class _020_按照左右半区的方式重新组合单链表 {
         node2.next = node3;
         node3.next = node4;
         node4.next = node5;
-//        node5.next = node1;
 
-//        Node node = josephusKill1(node1, 3);
         relocate(node1);
         Node cur = node1;
         while (cur != null ) {
